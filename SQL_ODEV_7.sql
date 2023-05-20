@@ -13,7 +13,7 @@ ORDER BY replacement_cost;
 --customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sayılarını nelerdir? 
 
 SELECT store_id, COUNT(*) FROM customer
-GROUP BY store_id
+GROUP BY store_id;
 
 --city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
 
